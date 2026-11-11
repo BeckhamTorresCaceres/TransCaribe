@@ -1,0 +1,88 @@
+{
+  "regimenes": {
+    "ADMINISTRATIVO": {
+      "codigo": "ADMINISTRATIVO",
+      "nombre": "Administrativo",
+      "tarifa_hora": 20000,
+      "permite_extras": true,
+      "tarifa_extra": 25000,
+      "horas_fijas": false,
+      "porcentaje_ibc": 1.0,
+      "porcentaje_salud": 0.04,
+      "porcentaje_pension": 0.04,
+      "porcentaje_arl_defecto": 0.00522,
+      "texto_arl_defecto": "0,522%",
+      "descripcion": "Tarifa $20.000/h + extras. Deducciones 4% salud, 4% pensión, 0.522% ARL sobre devengado.",
+      "cargos": [
+        {
+          "cargo": "Auxiliar Administrativo",
+          "horas": null,
+          "arl": 0.00522,
+          "texto_arl": "0,522%"
+        },
+        {
+          "cargo": "Secretaria Ejecutiva",
+          "horas": null,
+          "arl": 0.00522,
+          "texto_arl": "0,522%"
+        }
+      ]
+    },
+    "OPERATIVO": {
+      "codigo": "OPERATIVO",
+      "nombre": "Operativo",
+      "tarifa_hora": 40000,
+      "permite_extras": false,
+      "tarifa_extra": 0,
+      "horas_fijas": true,
+      "porcentaje_ibc": 0.4,
+      "porcentaje_salud": 0.125,
+      "porcentaje_pension": 0.16,
+      "porcentaje_arl_defecto": 0.01044,
+      "texto_arl_defecto": "1,044%",
+      "descripcion": "Tarifa $40.000/h fijas según cargo. IBC al 40%. Deducciones 12.5% salud, 16% pensión y ARL según riesgo.",
+      "cargos": [
+        {
+          "cargo": "Conductor",
+          "horas": 160,
+          "arl": 0.01044,
+          "texto_arl": "1,044%"
+        },
+        {
+          "cargo": "Oficios Generales",
+          "horas": 100,
+          "arl": 0.00522,
+          "texto_arl": "0,522%"
+        },
+        {
+          "cargo": "Vigilancia",
+          "horas": 336,
+          "arl": 0.0435,
+          "texto_arl": "4,350%"
+        }
+      ]
+    },
+    "DIRECTIVO": {
+      "codigo": "DIRECTIVO",
+      "nombre": "Directivo",
+      "tarifa_hora": 60000,
+      "permite_extras": true,
+      "tarifa_extra": 75000,
+      "horas_fijas": false,
+      "porcentaje_ibc": 1.0,
+      "porcentaje_salud": 0.04,
+      "porcentaje_pension": 0.04,
+      "porcentaje_arl_defecto": 0.00522,
+      "texto_arl_defecto": "0,522%",
+      "descripcion": "Régimen para cargos directivos y gerencia.",
+      "cargos": [
+        {
+          "cargo": "Gerente General",
+          "horas": null,
+          "arl": 0.00522,
+          "texto_arl": "0,522%"
+        }
+      ]
+    }
+  }
+}

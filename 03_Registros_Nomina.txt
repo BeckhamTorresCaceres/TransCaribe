@@ -1,0 +1,6 @@
+Nombre,Tipo,Cargo,HT,Salario,HE,TPHE,Salud,Pension,ARL,Total a pagar
+Ana María Jaimes González,ADMINISTRATIVO,Auxiliar Administrativo,40,800000,20,500000,52000,52000,6786,1189214
+Carlos Andrés Pérez Rojas,OPERATIVO,Conductor,160,6400000,0,0,320000,409600,26726,5643674
+Blanca Luz Iglesias Serpa,OPERATIVO,Oficios Generales,100,4000000,0,0,200000,256000,8352,3535648
+Luis Fernando Díaz Mejía,OPERATIVO,Vigilancia,336,13440000,0,0,672000,860160,233856,11673984
+                                
